@@ -1,0 +1,9 @@
+name: hello-world
+ #this is not always done but because we dont have a code project to push we can use this push command
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
